@@ -93,3 +93,22 @@ VALUES (NULL, 4, 2, 1);
 
 INSERT INTO ordered_products
 VALUES (NULL, 5, 1, 3);
+
+SELECT * FROM customers;
+
+SELECT * FROM orders;
+
+SELECT * FROM products;
+
+UPDATE customers
+SET first_name="Charlotte"
+WHERE id=2;
+
+UPDATE customers
+SET first_name="David"
+WHERE id=3;
+
+SELECT * FROM customers;
+
+DELETE FROM customers
+WHERE id=1;
