@@ -1,0 +1,28 @@
+CREATE DATABASE web_app;
+
+CREATE TABLE users (
+	id INT AUTO_INCREMENT,
+	username VARCHAR(50) UNIQUE NOT NULL,
+	password VARCHAR(50) NOT NULL,
+	PRIMARY KEY (id)
+	);
+
+DESCRIBE users;
+
+ALTER TABLE users
+ADD email VARCHAR(75) UNIQUE NOT NULL;
+
+DESCRIBE USERS;
+
+CREATE TABLE posts (
+	id INT AUTO_INCREMENT,
+	fk_user_id INT,
+	post_text VARCHAR(140),
+	likes INT NOT NULL DEFAULT 0,
+	PRIMARY KEY (id),
+	FOREIGN KEY (fk_user_id) REFERENCES users(id)
+	);
+
+SHOW TABLES;
+
+DROP TABLE posts;
