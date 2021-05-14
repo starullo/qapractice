@@ -1,0 +1,2 @@
+module printHelloWorld2 {
+}
