@@ -1,6 +1,0 @@
-INDEX VERSION 1.131+/Users/sam/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
-3929067656.index
-397701586.index
-160281792.index
-4183590351.index
-2388374873.index
