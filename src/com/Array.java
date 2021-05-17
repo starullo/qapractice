@@ -3,7 +3,7 @@ package com;
 public class Array {
 
 	public static void main(String[] args) {
-		enhancedForLoop();
+		bonusTask();
 	}
 	public static void methodOne() {
 		int[] arrOne = new int[10];
@@ -46,5 +46,21 @@ public class Array {
 		for (String curString : stringsArr) {
 			System.out.println(curString);
 		}
+	}
+	
+	public static void bonusTask() {
+		String output = "";
+		for (int i = 0; i < 5; i++) {
+			if (i == 0 || i == 4) {
+				output += "[=][=][=][=][=]\n";
+			} else if (i == 1 || i == 3) {
+				output += "[=][-][-][-][=]\n";
+			} else {
+				output += "[=][-][X][-][=]\n";
+			}
+			
+		}
+		System.out.println(output);
+		
 	}
 }
