@@ -44,7 +44,7 @@ public class Flowchart {
 	}
 	
 	public static void main(String[] args) {
-		longMethod(400);
+		System.out.println(Blackjack.play(22, 25));
 	}
 
 }
