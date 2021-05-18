@@ -3,7 +3,7 @@ package com;
 public class Array {
 
 	public static void main(String[] args) {
-		bonusTask();
+		System.out.println(Iteration.methodTwo(5029));
 	}
 	public static void methodOne() {
 		int[] arrOne = new int[10];
