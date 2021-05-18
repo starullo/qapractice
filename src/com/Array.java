@@ -3,7 +3,7 @@ package com;
 public class Array {
 
 	public static void main(String[] args) {
-		System.out.println(Iteration.methodTwo(5029));
+		NumbersRevisited.printNums();
 	}
 	public static void methodOne() {
 		int[] arrOne = new int[10];
